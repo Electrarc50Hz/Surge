@@ -3,16 +3,16 @@
 
 [Script]
 # AppRaven
-AppRaven = type=http-response, pattern=https://appraven.net/appraven/graphql, script-path=https://raw.githubusercontent.com/Yu9191/Rewrite/main/AppRaven.js, requires-body=true, timeout=60
+AppRaven = type=http-response, pattern=https://appraven.net/appraven/graphql, script-path=https://raw.githubusercontent.com/Electrarc50Hz/Scripts/main/AppRavenCrack.js, requires-body=true, timeout=60
 
 # Fimo
-FimoProCrack = type=http-response, pattern=^https?:\/\/server\.zbisq\.com\/fimo-user, script-path=https://github.com/ddgksf2013/MoYu/raw/master/FimoProCrack.js, requires-body=true, timeout=60
+FimoProCrack = type=http-response, pattern=^https?:\/\/server\.zbisq\.com\/fimo-user, script-path=https://github.com/Electrarc50Hz/Scripts/raw/main/FimoProCrack.js, requires-body=true, timeout=60
 
 # Notability
-notability = type=http-response, pattern=^https?:\/\/notability\.com\/(global|subscriptions), script-path=https://raw.githubusercontent.com/chxm1023/Rewrite/main/notability.js, requires-body=true, max-size=-1, timeout=60
+notability = type=http-response, pattern=^https?:\/\/notability\.com\/(global|subscriptions), script-path=https://raw.githubusercontent.com/Electrarc50Hz/Scripts/main/NotabilityCrack.js, requires-body=true, max-size=-1, timeout=60
 
 # 每日凯格尔
-MeiRiKaiGeErProCrack = type=http-response, pattern=^https?:\/\/kegelapi\.dailystretch\.app\/api\/v\d\/(profile|subject), script-path=https://github.com/ddgksf2013/MoYu/raw/master/MeiRiKaiGeErProCrack.js, requires-body=true, max-size=-1, timeout=60
+MeiRiKaiGeErProCrack = type=http-response, pattern=^https?:\/\/kegelapi\.dailystretch\.app\/api\/v\d\/(profile|subject), script-path=https://github.com/Electrarc50Hz/Scripts/raw/main/MeiRiKaiGeErProCrack.js, requires-body=true, max-size=-1, timeout=60
 
 [MITM]
 hostname = %APPEND% appraven.net, server.zbisq.com, notability.com, kegelapi.dailystretch.app
