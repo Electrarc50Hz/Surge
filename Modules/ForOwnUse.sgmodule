@@ -15,7 +15,7 @@ notability = type=http-response, pattern=^https?:\/\/notability\.com\/(global|su
 MeiRiKaiGeErProCrack = type=http-response, pattern=^https?:\/\/kegelapi\.dailystretch\.app\/api\/v\d\/(profile|subject), script-path=https://raw.githubusercontent.com/Electrarc50Hz/Surge/main/Scripts/MeiRiKaiGeErProCrack.js, requires-body=true, max-size=-1, timeout=60
 
 # Duet
-DuetDisplay = type=http-response, pattern=https://rdp.duetdisplay.com/v1/users/validateReceipt, script-path=https://raw.githubusercontent.com/Yu9191/Rewrite/main/DuetDisplay.js, requires-body=true, max-size=-1, timeout=60
+DuetDisplay = type=http-response, pattern=https://rdp.duetdisplay.com/v1/users/validateReceipt, script-path=https://raw.githubusercontent.com/Electrarc50Hz/Surge/main/Scripts/DuetDisplayCrack.js, requires-body=true, max-size=-1, timeout=60
 
 [MITM]
 hostname = %APPEND% appraven.net, server.zbisq.com, notability.com, kegelapi.dailystretch.app, rdp.duetdisplay.com
