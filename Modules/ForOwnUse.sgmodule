@@ -18,4 +18,4 @@ MeiRiKaiGeErProCrack = type=http-response, pattern=^https?:\/\/kegelapi\.dailyst
 DuetDisplay = type=http-response, pattern=https://rdp.duetdisplay.com/v1/users/validateReceipt, script-path=https://raw.githubusercontent.com/Electrarc50Hz/Surge/main/Scripts/DuetDisplayCrack.js, requires-body=true, max-size=-1, timeout=60
 
 [MITM]
-hostname = %APPEND% appraven.net, server.zbisq.com, notability.com, kegelapi.dailystretch.app, rdp.duetdisplay.com
+hostname = %APPEND% server.zbisq.com, notability.com, kegelapi.dailystretch.app, rdp.duetdisplay.com
